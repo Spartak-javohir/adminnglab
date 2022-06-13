@@ -6,8 +6,8 @@ const Left = () => {
     <>
       <div className="frame">
         <ul className="list">
-          <li className="items">
-            <img src={logo} alt="" />
+          <li className="items logotip">
+            <img className="logo" src={logo} alt="" />
           </li>
           <li className="items">Video</li>
           <li className="items">Kutubxona</li>

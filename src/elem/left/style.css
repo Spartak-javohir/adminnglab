@@ -1,4 +1,30 @@
 ul {
   list-style: none;
 }
+
+.frame {
+  padding: 0;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.logotip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: #05052e;
+  width: 100%;
+}
+
+.logo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+}
 /*# sourceMappingURL=style.css.map */
