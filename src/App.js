@@ -1,8 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import Left from "./elem/left/left";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Left />
+    </>
+  );
 }
 
 export default App;
