@@ -41,4 +41,10 @@
 .name {
   color: white;
   width: 900px;
+  text-align: center;
+}
+.navbar_rigth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

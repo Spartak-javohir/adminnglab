@@ -11,7 +11,9 @@ const Body = () => {
             <div className=" logotip">
               <img className="logo" src={logo} alt="" />
             </div>
-            <div className="name"></div>
+            <div className="name">
+              <h2>Name</h2>
+            </div>
           </nav>
           <div className="elements">
             <Left />
