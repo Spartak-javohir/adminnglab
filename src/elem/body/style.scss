@@ -23,6 +23,22 @@
   align-items: flex-start;
   justify-content: space-between;
   border: 1px solid var(--line-color);
-  height: 90vh;
   margin-top: 15px;
+  flex-direction: column;
+}
+.logotip {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+.elements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.name {
+  color: white;
+  width: 900px;
 }

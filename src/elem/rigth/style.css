@@ -1,5 +1,15 @@
+:root {
+  --color: rgb(5, 5, 46);
+}
+
 .const {
   width: 900px;
   height: 100%;
+}
+
+.navbar_rigth {
+  background-color: var(--color);
+  width: 100%;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

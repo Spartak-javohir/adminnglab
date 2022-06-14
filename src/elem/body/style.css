@@ -37,7 +37,41 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   border: 1px solid var(--line-color);
-  height: 90vh;
   margin-top: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logotip {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.name {
+  color: white;
+  width: 900px;
 }
 /*# sourceMappingURL=style.css.map */
