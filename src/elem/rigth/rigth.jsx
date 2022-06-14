@@ -1,7 +1,7 @@
 import "./style.css";
 
-const Rigth = (props) => {
-  return <div className="const">{props.children}</div>;
+const Rigth = () => {
+  return <div className="const"></div>;
 };
 
 export default Rigth;
