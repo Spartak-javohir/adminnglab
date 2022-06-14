@@ -1,3 +1,38 @@
 .ramka {
   width: 900px;
 }
+.container-sm {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 75vh;
+  background-color: rgba(5, 5, 46, 0.7);
+}
+
+.header {
+  background-color: rgb(11, 51, 86);
+  padding: 5px 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.add_admin_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.add_admin_input {
+  outline: none;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  width: 150%;
+}
+.add_admin_button {
+  outline: none;
+  border: none;
+  padding: 0 6px;
+  border-radius: 50%;
+  font-size: 24px;
+}
