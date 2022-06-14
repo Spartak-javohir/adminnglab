@@ -10,11 +10,11 @@ ul {
   width: 300px;
 }
 .logotip {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   background-color: var(--bg-color);
-  width: 100%;
 }
 .logo {
   box-sizing: border-box;
@@ -24,7 +24,16 @@ ul {
   border: 1px solid var(--bg-color);
   box-sizing: border-box;
   width: 100%;
+  padding: 0;
+  :nth-child(2) {
+    padding-top: 20px;
+  }
 }
 .items {
   width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.list_elem {
+  padding: 10px;
 }

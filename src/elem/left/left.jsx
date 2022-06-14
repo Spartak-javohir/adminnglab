@@ -9,10 +9,10 @@ const Left = () => {
           <li className="items logotip">
             <img className="logo" src={logo} alt="" />
           </li>
-          <li className="items">Video</li>
-          <li className="items">Kutubxona</li>
-          <li className="items">Jurnal</li>
-          <li className="items">Admin</li>
+          <li className="items list_elem">Video</li>
+          <li className="items list_elem">Kutubxona</li>
+          <li className="items list_elem">Jurnal</li>
+          <li className="items list_elem">Admin</li>
         </ul>
       </div>
     </>
