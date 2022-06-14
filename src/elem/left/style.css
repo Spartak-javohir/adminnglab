@@ -27,10 +27,6 @@ ul {
   padding: 0;
 }
 
-.list :nth-child(1) {
-  padding-top: 20px;
-}
-
 .items {
   width: 100%;
   padding-left: 10px;
