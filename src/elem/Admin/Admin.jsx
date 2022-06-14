@@ -1,5 +1,7 @@
 import AdminElem from "../Admin-elem/adminElem";
 import "./style.css";
+import logo from "../body/logo1.svg";
+import Left from "../left/left";
 const Admin = () => {
   return (
     <section className="body">
@@ -10,7 +12,7 @@ const Admin = () => {
               <img className="logo" src={logo} alt="" />
             </div>
             <div className="name">
-              <h2>Name</h2>
+              <h2>Admin</h2>
             </div>
           </nav>
           <div className="elements">
