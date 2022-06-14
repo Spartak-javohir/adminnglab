@@ -1,8 +1,9 @@
-import Left from "./elem/left/left";
+import Body from "./elem/body/body";
+
 function App() {
   return (
     <>
-      <Left />
+      <Body />
     </>
   );
 }
