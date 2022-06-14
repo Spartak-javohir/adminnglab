@@ -1,3 +1,7 @@
+:root {
+  --bg-color: rgb(5, 5, 46);
+}
+
 ul {
   list-style: none;
 }
@@ -18,7 +22,7 @@ ul {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  background-color: #05052e;
+  background-color: var(--bg-color);
   width: 100%;
 }
 
@@ -26,5 +30,16 @@ ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 30%;
+}
+
+.list {
+  border: 1px solid var(--bg-color);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.items {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
