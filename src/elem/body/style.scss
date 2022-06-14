@@ -12,6 +12,11 @@
   .container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
   }
+}
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
