@@ -19,9 +19,19 @@ const AdminElem = () => {
             </label>
           </form>
         </header>
-        <ul className="admins-list">
-          <li>admin</li>
-        </ul>
+        <ul className="admins-list"></ul>
+        <table>
+          <thead>
+            <tr>
+              <th>№</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   );
